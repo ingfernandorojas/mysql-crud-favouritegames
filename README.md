@@ -2,9 +2,9 @@
 
 ## Primero crear una base de datos llamada ng_games_db
 
-`mysql -u root -p`
-`CREATE DATABASE ng_games_db`
-`ctrl + D`
+`mysql -u root -p
+CREATE DATABASE ng_games_db;
+ctrl + D`
 
 ## Importar estructura de la base de datos
 
@@ -12,8 +12,8 @@
 
 ## Modificar server/src/keys.ts con la contraseña correcta
 
-`cd server`
-`nano /src/keys.ts `
+`cd server
+nano /src/keys.ts `
 
 ## Instalar dependencias
 
