@@ -30,6 +30,6 @@
 
 # CLIENT
 
-`cd ../client` </br>
+`cd client` </br>
 `npm i package.json`</br>
 `ng serve`
