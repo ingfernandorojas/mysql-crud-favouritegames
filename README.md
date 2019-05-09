@@ -2,8 +2,8 @@
 
 ## Primero crear una base de datos llamada ng_games_db
 
-`mysql -u root -p
-CREATE DATABASE ng_games_db;
+`mysql -u root -p\n
+CREATE DATABASE ng_games_db;\n
 ctrl + D`
 
 ## Importar estructura de la base de datos
