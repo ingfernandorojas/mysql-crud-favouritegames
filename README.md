@@ -27,3 +27,9 @@
 ## Iniciar Servidor 
 
 `nodejs build/index.js`
+
+# CLIENT
+
+`cd ../client` </br>
+`npm i package.json`</br>
+`ng serve`
