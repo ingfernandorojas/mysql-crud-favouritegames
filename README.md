@@ -13,7 +13,7 @@
 ## Modificar server/src/keys.ts con la contraseña correcta
 
 `cd server`</br>
-`nano /src/keys.ts `
+`nano src/keys.ts `
 
 ## Instalar dependencias
 
