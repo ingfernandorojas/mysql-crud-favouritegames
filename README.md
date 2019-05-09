@@ -1,5 +1,28 @@
-# mysql-crud-favouritegames
+# SERVER
 
-Primero iniciar node.js
+## Primero crear una base de datos llamada ng_games_db
 
-`nodejs server/build/index.js`
+`mysql -u root -p`
+`CREATE DATABASE ng_games_db`
+`ctrl + D`
+
+## Importar estructura de la base de datos
+
+`mysql -u root -p ng_games_db < database/database.sql`
+
+## Modificar server/src/keys.ts con la contraseña correcta
+
+`cd server`
+`nano /src/keys.ts `
+
+## Instalar dependencias
+
+`npm i package.json`
+
+## Compilar
+
+`tsc`
+
+## Iniciar Servidor 
+
+`nodejs build/index.js`
